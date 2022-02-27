@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register|E-Shop</title>
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+  <body>
+    <section>
+      <div class="container">
+        <div class="user signinBx">
+          <div class="imgBx"><img src="images/logo.png" alt="" /></div>
+          <div class="formBx">
+            <form action="index.html" onsubmit="return true;">
+              <h2>Sign In</h2>
+              <input type="text" name="" placeholder="Username" />
+              <input type="password" name="" placeholder="Password" />
+              <a href="index.html">
+              <input type="submit"name="" value="Login" /></a>
+              <p class="signup">
+                Don't have an account ?
+                <a href="#" onclick="toggleForm();">Sign Up.</a>
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="user signupBx">
+          <div class="formBx">
+            <form action="index.html" onsubmit="return true;">
+              <h2>Create an account</h2>
+              <input type="text" name="" placeholder="Username" />
+              <input type="email" name="" placeholder="Email Address" />
+              <input type="password" name="" placeholder="Create Password" />
+              <input type="password" name="" placeholder="Confirm Password" />
+              <a href="index.html">
+              <input type="submit" name="" value="Sign Up" /></a>
+              <p class="signup">
+                Already have an account ?
+                <a href="#" onclick="toggleForm();">Sign in.</a>
+              </p>
+            </form>
+          </div>
+          <div class="imgBx"><img src="images/logo.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col-1">
+                  <h3>Download Our App</h3>
+                  <p>Download for Android and IOS</p>
+                  <div class="app-logo">
+                     <img class="play"src="images/play-store.png" alt="">
+                      <img class="app"src="images/app-store.png" alt="">
+                  </div>
+              </div>
+              <div class="footer-col-2">
+                 <img src="images/logo.png" alt="">
+                  <h4>Your Personal Shopping Cart</h4>
+              </div>
+              <div class="footer-col-3">
+                  <h3>Useful Links</h3>
+                  <ul>
+                      <li>Coupons</li>
+                      <li>Blog Post</li>
+                      <li>Return Policy</li>
+                      <li>Join Affiliate</li>
+                  </ul>
+               </div>
+               <div class="footer-col-4">
+                  <h3>Connect via us</h3>
+                  <ul>
+                      <li>Facebook</li>
+                      <li>Twitter</li>
+                      <li>Instagram</li>
+                      <li>Whatsapp</li>
+                  </ul>
+               </div>
+          </div>
+          <hr>
+          <p class="copyright">All rights are reserverd under the act of Copyright <i class="fas fa-regular fa-copyright"></i> - Term and Condition Apply</p>
+      </div>
+  </div>
+    <script>
+      const toggleForm = () => {
+  const container = document.querySelector('.container');
+  container.classList.toggle('active');
+};
+    </script>
+  </body>
+</html>
