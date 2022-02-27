@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    
+    <title>All Products|E-Shop</title>
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+           <a  href="index.html"> <img src="images/logo.png" alt=""></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img class ="cart"src="images/cart.png" width="50px"height="50px">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="">
+    </div>
+</div>
+<img class="img"src="images/.png" alt=""><br><br>
+
+<div class="small-container">
+<div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+        <option>Default Sorting</option>
+        <option>Low to High</option>
+        <option>High to Low</option>
+        <option>Sorting by rates</option>
+        <option>Sorting by price</option>
+    </select>
+</div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product1.jpg" alt="">
+            <h4>Iphone 13</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <p>75,000/-</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product2.png" alt="">
+            <h4>Canon Camera</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-thin fa-star" style="color: transparent;
+                -webkit-text-stroke: 1px #fdad00;
+                transition: all 0.3s ease;"></i>
+            </div>
+            <p>95,000/-</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product3.png" alt="">
+            <h4>Asus Laptop</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <p>105,000/-</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product4.png" alt="">
+            <h4>Earpods</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>25,000/-</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product5.png" alt="">
+            <h4>Smart Watch</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-thin fa-star" style="color: transparent;
+                -webkit-text-stroke: 1px #fdad00;
+                transition: all 0.3s ease;"></i>
+                
+            </div>
+            <p>16,000/-</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product6.png" alt="">
+            <h4>Headphones</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                
+            </div>
+            <p>6,000/-</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product7.png" alt="">
+            <h4>Power Bank</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-thin fa-star" style="color: transparent;
+                -webkit-text-stroke: 1px #fdad00;
+                transition: all 0.3s ease;"></i>
+                
+            </div>
+            <p>11,000/-</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product8.png" alt="">
+            <h4>Alexa</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                
+            </div>
+            <p>8,000/-</p>
+        </div>   
+    </div> 
+
+    <div class="page-btn">
+        <span>1</span>
+        <a href="2page.html">
+        <span>2</span></a>
+        <a href="3.html">
+        <span>3</span></a>
+        <a href="arrow.html">
+        <span>&#8594;</span></a>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download for Android and IOS</p>
+                <div class="app-logo">
+                   <img class="play"src="images/play-store.png" alt="">
+                    <img class="app"src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="images/logo.png" alt="">
+                <h4>Your Personal Shopping Cart</h4>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+             </div>
+             <div class="footer-col-4">
+                <h3>Connect via us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Whatsapp</li>
+                </ul>
+             </div>
+        </div>
+        <hr>
+        <p class="copyright">All rights are reserverd under the act of Copyright <i class="fas fa-regular fa-copyright"></i> - Term and Condition Apply</p>
+    </div>
+</div>
+<div class='cursor' id="cursor"></div>
+<script>var cursor = document.getElementById("cursor");
+  document.body.addEventListener("mousemove", function(c) {
+    cursor.style.left = c.clientX + "px",
+      cursor.style.top = c.clientY + "px";
+  });
+  </script>
+  <script src="script.js"></script>
+  <script>
+      var ManuItems = document.getElementById("MenuItems")
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle(){
+          if( MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+          }else{
+            MenuItems.style.maxHeight = "0px";
+          }
+      }
+  </script>
+</body>
+</html>
