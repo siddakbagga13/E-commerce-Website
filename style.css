@@ -57,7 +57,7 @@ a:hover{
     padding-right: 25px;
 }
 .logo img{
-    width: 150px;
+    width: 100px;
 }
 .logo:hover{
     transform: scale(1.2);
